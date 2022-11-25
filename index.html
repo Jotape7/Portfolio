@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" media="screen and (max-width:800px)" href="tablet.css">
+  <link rel="stylesheet" media="screen and (max-width:530px)" href="phone.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">Sobre mim</a></li>
+      <li><a href="#portfolio">Cursos</a></li>
+      <li><a href="#services">Habilidades</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <section id="home">
+    <div class="main">
+      <h1 class="logo">Eu sou <br> <span>João Pedro.</span></h1>
+      <p>Tenho 19 anos, moro em Mairinque</p>
+      <p>E aqui contém algumas informações sobre meu currículo</p>
+      <br><br>
+      <button class="btn" onclick="descer();">
+        Veja mais
+      </button>
+    </div>
+  </section>
+
+  <section id="about">
+    <h1 class="headings">Sobre mim</h1>
+    <div id="pic">
+      <img src="img/fatec.png" alt="">
+      <div id="intro">
+        <h2>Análise e Desenvolvimento de Sistemas</h2>
+        <p>Atualmente estou cursando Análise e Desenvolvimento de Sistemas na Fatec de Sorocaba e estou no 4º Semestre.
+        </p>
+
+      </div>
+    </div>
+
+    <div id="pic">
+      <img src="img/etec.png" alt="">
+      <div id="intro">
+        <h2>Técnico em Informática</h2>
+        <p>Formado Técnico em Informática pela Etec de São Roque em 2020, na qual cursei o Ensino Médio integrado com
+          curso técnico.</p>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <h1 class="headings">Cursos</h1>
+    <div class="gallery">
+      <img src="img/git.png" alt="">
+      <img src="img/ui.jpg" alt="">
+      <img src="img/M001.jpg" alt="">
+      <img src="img/M121.jpg" alt="">
+      <img src="img/M201.jpg" alt="">
+      <img src="img/M220JS.jpg" alt="">
+    </div>
+  </section>
+
+  <section id="services">
+    <h1 class="headings">Habilidades</h1>
+    <div class="row">
+      <div class="box">
+        <img src="img/english-lan.png" alt="">
+        <h2 class="headings">Inglês</h1>
+        <p>Tenho conhecimento em inglês avançado, com boa compreensão da língua falada, interpretação escrita e
+          speaking.
+        </p>
+      </div>
+      <div class="box">
+        <img src="img/uii.png" alt="">
+        <h2 class="headings">UI Design</h1>
+        <p>Tenho conhecimento de UI Design, de criação de interfaces intuitivas para atender a usabilidade,
+          acessibilidade, utilizando a ferramenta Figma. </p>
+      </div>
+      <div class="box">
+        <img src="img/web-programming.png" alt="">
+        <h2 class="headings">Back-End</h1>
+        <p>Estou aprendendo mais sobre desenvolvimento back-end no momento com node, typescript e mongo principalmente.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contato">
+    <p>João Pedro</p>
+    <img src="./img/me.png" alt="">
+    <p id="final">Para mais informações, aqui estão as minhas redes sociais.</p>
+    <div class="social">
+      <a href="https://www.linkedin.com/in/joaopedrocampos77/"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://github.com/Jotape7"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.instagram.com/jp_cammp/"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+    <p class="end">Copyright by João Pedro</p>
+  </footer>
+</body>
+
+</html>
